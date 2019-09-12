@@ -42,10 +42,10 @@
     
     
 4. 系統環境
-1. 先以 Android 為出發.
-2. App 內建 Sharedpreferences, 儲存使用者 ID / Password, 及未來客製化設定用.
-3. Beacon SDK.
-4. 使用 Web Service 與 Server 端交談.
-5. 傳輸格式為 JSON
-6. APP運做狀態暫存 (例如, 患者己觸發掛號櫃檯之beacon, 系統己檢查過並進行報到後為報到狀態, 就不要再 call 後台進行報到而浪費時間, 但需 insert into 位置Log )
-7. 訊息主動通知.
+ * 先以 Android 為出發.
+ * App 內建 Sharedpreferences, 儲存使用者 ID / Password, 及未來客製化設定用.
+ * Beacon SDK.
+ * 使用 Web Service 與 Server 端交談.
+ * 傳輸格式為 JSON
+ * APP運做狀態暫存 (例如, 患者己觸發掛號櫃檯之beacon, 系統己檢查過並進行報到後為報到狀態, 就不要再 call 後台進行報到而浪費時間, 但需 insert into 位置Log )
+ * 訊息主動通知.
